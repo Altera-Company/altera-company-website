@@ -3,9 +3,9 @@
 import useEmblaCarousel from "embla-carousel-react";
 import Image from "next/image";
 import { useCallback, useEffect, useState } from "react";
-import type { CaseStudy } from "@/lib/portfolio";
+import type { LocalizedCaseStudy } from "@/lib/portfolio";
 
-export function Carousel({ items }: { items: CaseStudy[] }) {
+export function Carousel({ items }: { items: LocalizedCaseStudy[] }) {
   const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true });
   const [selected, setSelected] = useState(0);
 
@@ -55,7 +55,7 @@ export function Carousel({ items }: { items: CaseStudy[] }) {
         {items.map((item, index) => (
           <button
             key={item.slug}
-            aria-label={`Ir para o case ${item.client}`}
+            aria-label={`${item.client}`}
             onClick={() => emblaApi?.scrollTo(index)}
             className={`h-2 rounded-full transition-all ${
               index === selected ? "w-6 bg-foreground" : "w-2 bg-foreground/25"

@@ -1,42 +1,61 @@
 import type { Metadata } from "next";
+import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Button } from "@/components/Button";
 import { Carousel } from "@/components/Carousel";
 import { caseStudies } from "@/lib/portfolio";
 import { site } from "@/lib/site";
 
-export const metadata: Metadata = {
-  title: "Portfólio — Altera Company",
-  description:
-    "Branding, identidade visual, social media e produção audiovisual assinados por Elyan Sodré, o carro-chefe da Altera Company.",
-};
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "metadata.portfolio" });
+  return {
+    title: t("title"),
+    description: t("description"),
+  };
+}
 
-const pendingCategories = ["Identidade Visual", "Produção Audiovisual", "Materiais Gráficos"];
+export default async function PortfolioPage({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
+  setRequestLocale(locale);
+  const t = await getTranslations("portfolio");
 
-export default function PortfolioPage() {
+  const pendingCategories = t.raw("pendingCategories") as string[];
+  const localizedCaseStudies = caseStudies.map((item) => ({
+    ...item,
+    segment: t(`caseStudies.${item.slug}.segment`),
+    category: t(`caseStudies.${item.slug}.category`),
+  }));
+
   return (
     <div className="mx-auto max-w-6xl px-6 py-16 md:py-24">
       <p className="font-heading text-sm uppercase tracking-[0.25em] text-foreground/50">
-        Carro-chefe
+        {t("eyebrow")}
       </p>
-      <h1 className="mt-4 font-display text-4xl md:text-5xl">PORTFÓLIO</h1>
+      <h1 className="mt-4 font-display text-4xl md:text-5xl">{t("title")}</h1>
       <p className="mt-6 max-w-2xl text-base leading-relaxed text-foreground/70 md:text-lg">
-        Nos últimos anos, Elyan Sodré participou de dezenas de projetos de branding,
-        captação e edição de vídeo e criação de identidade visual — a base sobre a
-        qual a Altera Company construiu sua reputação.
+        {t("lead")}
       </p>
 
       <div className="mt-12">
         <h2 className="font-heading text-sm uppercase tracking-wider text-foreground/50">
-          Cases reais
+          {t("casesTitle")}
         </h2>
         <div className="mt-6">
-          <Carousel items={caseStudies} />
+          <Carousel items={localizedCaseStudies} />
         </div>
       </div>
 
       <div className="mt-16">
         <h2 className="font-heading text-sm uppercase tracking-wider text-foreground/50">
-          Em atualização
+          {t("updatingTitle")}
         </h2>
         <div className="mt-6 grid gap-5 sm:grid-cols-3">
           {pendingCategories.map((category, index) => (
@@ -47,7 +66,7 @@ export default function PortfolioPage() {
               } bg-gradient-to-br from-black/90 to-black/60`}
             >
               <span className="font-heading text-xs uppercase tracking-widest text-white/50">
-                Em breve
+                {t("comingSoon")}
               </span>
               <span className="mt-1 font-heading text-lg font-medium text-white">{category}</span>
             </div>
@@ -56,18 +75,16 @@ export default function PortfolioPage() {
       </div>
 
       <div className="mt-14 blob-card border border-black/10 bg-black/[0.03] p-8 md:p-10">
-        <h2 className="font-heading text-xl font-medium">Quer ver mais?</h2>
+        <h2 className="font-heading text-xl font-medium">{t("wantMoreTitle")}</h2>
         <p className="mt-3 max-w-2xl text-sm leading-relaxed text-foreground/70">
-          Esta página segue recebendo peças definitivas do portfólio. Enquanto isso,
-          confira o trabalho completo de Elyan Sodré e da Altera Company direto no
-          Instagram.
+          {t("wantMoreText")}
         </p>
         <div className="mt-6 flex flex-wrap gap-4">
           <Button href={site.instagram.founder} external>
-            Portfólio completo @elyansodre
+            {t("fullPortfolioButton")}
           </Button>
           <Button href={site.instagram.company} variant="outline" external>
-            @alteracompany
+            {t("goToInstagramButton")}
           </Button>
         </div>
       </div>

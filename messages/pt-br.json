@@ -1,0 +1,188 @@
+{
+  "site": {
+    "description": "Branding, conteúdo e tecnologia em um só lugar: a Altera Company constrói identidade visual, presença digital e produtos de software para marcas que querem se destacar."
+  },
+  "metadata": {
+    "home": {
+      "title": "Altera Company — Branding, Conteúdo e Tecnologia"
+    },
+    "servicos": {
+      "title": "Serviços — Altera Company",
+      "description": "Branding, social media, produção audiovisual, performance digital e soluções em tecnologia: conheça as frentes da Altera Company."
+    },
+    "sobre": {
+      "title": "Sobre — Altera Company",
+      "description": "A história da Altera Company: direção criativa de Elyan Sodré e uma equipe em expansão para entregar também soluções em tecnologia."
+    },
+    "contato": {
+      "title": "Contato — Altera Company",
+      "description": "Fale com a Altera Company e solicite um orçamento para o seu projeto."
+    },
+    "portfolio": {
+      "title": "Portfólio — Altera Company",
+      "description": "Branding, identidade visual, social media e produção audiovisual assinados por Elyan Sodré, o carro-chefe da Altera Company."
+    }
+  },
+  "nav": {
+    "servicos": "Serviços",
+    "portfolio": "Portfólio",
+    "sobre": "Sobre",
+    "cta": "Solicitar orçamento",
+    "openMenu": "Abrir menu"
+  },
+  "footer": {
+    "servicos": "Serviços",
+    "company": "Altera Company",
+    "portfolio": "Portfólio",
+    "sobre": "Sobre",
+    "contato": "Contato",
+    "rights": "Todos os direitos reservados."
+  },
+  "languageSwitcher": {
+    "label": "Idioma"
+  },
+  "home": {
+    "eyebrow": "Branding · Conteúdo · Tecnologia",
+    "headlineLine1": "ALTERAMOS A FORMA",
+    "headlineLine2": "COMO SUA MARCA",
+    "headlineLine3": "É VISTA.",
+    "lead": "A Altera Company nasceu da direção criativa de Elyan Sodré e hoje reúne branding, conteúdo e uma equipe de engenharia de software para levar sua marca da identidade visual ao produto digital — com clareza, estratégia e resultado.",
+    "ctaQuote": "Solicitar orçamento",
+    "ctaPortfolio": "Ver portfólio",
+    "solutionsTitle": "Nossas soluções",
+    "solutionsLead": "Projetos que alinham direção criativa, inteligência de mercado e, agora, engenharia de software — segmentados por categoria para atender cada etapa do seu negócio.",
+    "flagshipEyebrow": "Carro-chefe",
+    "flagshipTitle": "Direção criativa por Elyan Sodré",
+    "flagshipText": "Branding, identidade visual e conteúdo que comunicam com clareza e geram conexão real com o público — a base sobre a qual a Altera Company construiu sua reputação e que segue sendo nosso carro-chefe.",
+    "flagshipCta": "Conferir portfólio completo",
+    "ctaSectionTitle": "Pronto para alterar a forma como sua marca é vista?",
+    "ctaSectionText": "Conte pra gente qual etapa do seu negócio precisa de atenção — a gente monta a solução certa, da identidade visual ao produto digital.",
+    "ctaSectionButton": "Solicitar orçamento"
+  },
+  "services": {
+    "pageEyebrow": "Nossas soluções",
+    "pageTitle": "SERVIÇOS",
+    "pageLead": "Cada categoria resolve uma etapa diferente da jornada da sua marca. Da identidade visual ao produto digital, você escolhe por onde começar — ou combina frentes para construir algo completo.",
+    "flagshipLabel": "Carro-chefe",
+    "serviceLabel": "Serviço",
+    "learnMore": "Saiba mais",
+    "backToAll": "← Todos os serviços",
+    "whatWeDeliver": "O que entregamos",
+    "requestQuote": "Solicitar orçamento",
+    "viewPortfolio": "Ver portfólio",
+    "otherSolutions": "Outras soluções",
+    "items": {
+      "branding-identidade-visual": {
+        "name": "Branding e Identidade Visual",
+        "shortName": "Branding",
+        "tagline": "Marcas autênticas que se posicionam com autoridade.",
+        "description": "Desenvolvemos desde o logotipo até o manual de marca completo e o sistema visual que sustenta cada aplicação da sua empresa — garantindo consistência em qualquer ponto de contato com o público.",
+        "highlights": [
+          "Logotipo e sistema visual",
+          "Manual de marca completo",
+          "Direção criativa e de posicionamento",
+          "Aplicações de marca em materiais gráficos"
+        ]
+      },
+      "social-media-conteudo": {
+        "name": "Social Media e Conteúdo",
+        "shortName": "Social Media",
+        "tagline": "Gestão estratégica que fortalece sua presença digital.",
+        "description": "Cuidamos do seu perfil de ponta a ponta: criação de posts, carrosséis e stories com design profissional, organização de feed e gerenciamento focados em gerar conexão real com o seu público.",
+        "highlights": [
+          "Posts, carrosséis e stories",
+          "Organização e curadoria de feed",
+          "Calendário e gerenciamento de perfil",
+          "Produção de fotos para conteúdo"
+        ]
+      },
+      "producao-audiovisual": {
+        "name": "Produção Audiovisual",
+        "shortName": "Audiovisual",
+        "tagline": "Vídeos que engajam e convertem.",
+        "description": "Cuidamos de todo o processo — da criação de roteiros e conceitos visuais até a edição final — entregando conteúdos dinâmicos para Reels, TikTok e anúncios.",
+        "highlights": [
+          "Roteiro e conceito visual",
+          "Captação de imagem e áudio",
+          "Edição e finalização",
+          "Conteúdo para Reels, TikTok e anúncios"
+        ]
+      },
+      "performance-digital": {
+        "name": "Performance Digital",
+        "shortName": "Performance",
+        "tagline": "Estratégias focadas em resultado e escala.",
+        "description": "Gerenciamos campanhas de tráfego pago desenhadas para escalar o alcance da sua marca e aumentar suas vendas, com acompanhamento constante de métricas e otimização contínua.",
+        "highlights": [
+          "Planejamento e gestão de tráfego pago",
+          "Otimização contínua de campanhas",
+          "Acompanhamento de métricas e resultado",
+          "Estratégia de funil alinhada ao negócio"
+        ]
+      },
+      "tecnologia": {
+        "name": "Soluções em Tecnologia",
+        "shortName": "Tecnologia",
+        "tagline": "Produtos digitais sob medida para cada etapa do seu negócio.",
+        "description": "Nossa frente mais recente: unimos o olhar de marca da Altera Company a uma equipe de engenharia de software para desenvolver, do básico ao avançado, o produto digital que o seu negócio precisa — da primeira landing page a plataformas completas.",
+        "highlights": [
+          "Landing pages e websites institucionais",
+          "Aplicativos sob medida (ex: gestão para clínicas)",
+          "Dashboards e painéis de dados",
+          "Plataformas para times e operações comerciais"
+        ]
+      }
+    }
+  },
+  "about": {
+    "eyebrow": "Sobre",
+    "title": "ALTERA COMPANY",
+    "lead": "Uma marca que nasceu do design e está crescendo para entregar tecnologia — sem perder a clareza e a conexão que sempre nos guiaram.",
+    "founderName": "Elyan Sodré",
+    "founderRole": "CEO e Diretor Criativo",
+    "founderBio": "Graduado em Análise e Desenvolvimento de Sistemas pela Estácio de Sá e em Design Gráfico pela Unopar, Elyan fundou a Altera Company com forte atuação em branding, direção criativa e design para redes sociais. Seu trabalho é criar identidades visuais e conteúdos que comuniquem com clareza, posicionem marcas e gerem conexão real com o público.",
+    "teamTitle": "Um time em expansão",
+    "teamText1": "A Altera Company segue com o branding e o conteúdo como carro-chefe, mas nosso time cresceu: hoje também contamos com uma equipe dedicada de engenharia de software, ampliando o que entregamos para incluir sites, aplicativos, dashboards e plataformas sob medida.",
+    "teamText2": "O objetivo continua o mesmo — comunicar com clareza e gerar conexão real — agora aplicado também à construção de produtos digitais completos.",
+    "viewPortfolio": "Ver portfólio",
+    "requestQuote": "Solicitar orçamento"
+  },
+  "contact": {
+    "eyebrow": "Contato",
+    "title": "FALE COM A GENTE",
+    "lead": "Conte qual solução você precisa — branding, social media, audiovisual, performance ou tecnologia — e retornamos com os próximos passos.",
+    "instagramLabel": "Instagram",
+    "companyHandle": "@alteracompany",
+    "companyText": "Envie uma mensagem direta com seu projeto.",
+    "founderHandle": "@elyansodre",
+    "founderText": "Fale diretamente com o diretor criativo.",
+    "ctaButton": "Solicitar orçamento pelo Instagram"
+  },
+  "portfolio": {
+    "eyebrow": "Carro-chefe",
+    "title": "PORTFÓLIO",
+    "lead": "Nos últimos anos, Elyan Sodré participou de dezenas de projetos de branding, captação e edição de vídeo e criação de identidade visual — a base sobre a qual a Altera Company construiu sua reputação.",
+    "casesTitle": "Cases reais",
+    "updatingTitle": "Em atualização",
+    "comingSoon": "Em breve",
+    "pendingCategories": ["Identidade Visual", "Produção Audiovisual", "Materiais Gráficos"],
+    "wantMoreTitle": "Quer ver mais?",
+    "wantMoreText": "Esta página segue recebendo peças definitivas do portfólio. Enquanto isso, confira o trabalho completo de Elyan Sodré e da Altera Company direto no Instagram.",
+    "fullPortfolioButton": "Portfólio completo @elyansodre",
+    "goToInstagramButton": "@alteracompany",
+    "caseStudies": {
+      "dra-geisa-jatoba": {
+        "segment": "Medicina / Estética",
+        "category": "Social Media e Conteúdo"
+      },
+      "posto-ipanema": {
+        "segment": "Varejo / Combustíveis",
+        "category": "Social Media e Conteúdo"
+      },
+      "clinica-dellmed": {
+        "segment": "Medicina do Trabalho",
+        "category": "Social Media e Conteúdo"
+      }
+    }
+  }
+}

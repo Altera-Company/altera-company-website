@@ -1,24 +1,38 @@
 import type { Metadata } from "next";
+import { getTranslations, setRequestLocale } from "next-intl/server";
 import { ServiceCard } from "@/components/ServiceCard";
 import { services } from "@/lib/services";
 
-export const metadata: Metadata = {
-  title: "Serviços — Altera Company",
-  description:
-    "Branding, social media, produção audiovisual, performance digital e soluções em tecnologia: conheça as frentes da Altera Company.",
-};
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "metadata.servicos" });
+  return {
+    title: t("title"),
+    description: t("description"),
+  };
+}
 
-export default function ServicosPage() {
+export default async function ServicosPage({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
+  setRequestLocale(locale);
+  const t = await getTranslations("services");
+
   return (
     <div className="mx-auto max-w-6xl px-6 py-16 md:py-24">
       <p className="font-heading text-sm uppercase tracking-[0.25em] text-foreground/50">
-        Nossas soluções
+        {t("pageEyebrow")}
       </p>
-      <h1 className="mt-4 font-display text-4xl md:text-5xl">SERVIÇOS</h1>
+      <h1 className="mt-4 font-display text-4xl md:text-5xl">{t("pageTitle")}</h1>
       <p className="mt-6 max-w-2xl text-base leading-relaxed text-foreground/70 md:text-lg">
-        Cada categoria resolve uma etapa diferente da jornada da sua marca. Da
-        identidade visual ao produto digital, você escolhe por onde começar — ou
-        combina frentes para construir algo completo.
+        {t("pageLead")}
       </p>
 
       <div className="mt-12 grid gap-5 md:grid-cols-2">

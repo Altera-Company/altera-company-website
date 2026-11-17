@@ -1,4 +1,5 @@
-import Link from "next/link";
+import { useTranslations } from "next-intl";
+import { Link } from "@/i18n/navigation";
 import { Logo } from "@/components/Logo";
 import { services } from "@/lib/services";
 import { site } from "@/lib/site";
@@ -6,19 +7,23 @@ import { site } from "@/lib/site";
 const CURRENT_YEAR = 2026;
 
 export function Footer() {
+  const t = useTranslations("footer");
+  const tSite = useTranslations("site");
+  const tServices = useTranslations("services");
+
   return (
     <footer className="border-t border-white/10 bg-foreground text-background">
       <div className="mx-auto grid max-w-6xl gap-10 px-6 py-14 md:grid-cols-[1.2fr_1fr_1fr]">
         <div>
           <Logo className="text-background" />
           <p className="mt-4 max-w-sm text-sm leading-relaxed text-background/70">
-            {site.description}
+            {tSite("description")}
           </p>
         </div>
 
         <div>
           <h3 className="font-heading text-sm uppercase tracking-wider text-background/50">
-            Serviços
+            {t("servicos")}
           </h3>
           <ul className="mt-4 space-y-2.5 text-sm">
             {services.map((service) => (
@@ -27,7 +32,7 @@ export function Footer() {
                   href={`/servicos/${service.slug}`}
                   className="text-background/80 transition hover:text-background"
                 >
-                  {service.shortName}
+                  {tServices(`items.${service.slug}.shortName`)}
                 </Link>
               </li>
             ))}
@@ -36,22 +41,22 @@ export function Footer() {
 
         <div>
           <h3 className="font-heading text-sm uppercase tracking-wider text-background/50">
-            Altera Company
+            {t("company")}
           </h3>
           <ul className="mt-4 space-y-2.5 text-sm">
             <li>
               <Link href="/portfolio" className="text-background/80 transition hover:text-background">
-                Portfólio
+                {t("portfolio")}
               </Link>
             </li>
             <li>
               <Link href="/sobre" className="text-background/80 transition hover:text-background">
-                Sobre
+                {t("sobre")}
               </Link>
             </li>
             <li>
               <Link href="/contato" className="text-background/80 transition hover:text-background">
-                Contato
+                {t("contato")}
               </Link>
             </li>
             <li>
@@ -79,7 +84,7 @@ export function Footer() {
       </div>
 
       <div className="border-t border-white/10 px-6 py-5 text-center text-xs text-background/50">
-        © {CURRENT_YEAR} Altera Company. Todos os direitos reservados.
+        © {CURRENT_YEAR} Altera Company. {t("rights")}
       </div>
     </footer>
   );

@@ -1,0 +1,188 @@
+{
+  "site": {
+    "description": "Branding, content, and technology in one place: Altera Company builds visual identity, digital presence, and software products for brands that want to stand out."
+  },
+  "metadata": {
+    "home": {
+      "title": "Altera Company — Branding, Content & Technology"
+    },
+    "servicos": {
+      "title": "Services — Altera Company",
+      "description": "Branding, social media, audiovisual production, digital performance, and technology solutions: discover Altera Company's fronts."
+    },
+    "sobre": {
+      "title": "About — Altera Company",
+      "description": "The story of Altera Company: Elyan Sodré's creative direction and a growing team now also delivering technology solutions."
+    },
+    "contato": {
+      "title": "Contact — Altera Company",
+      "description": "Get in touch with Altera Company and request a quote for your project."
+    },
+    "portfolio": {
+      "title": "Portfolio — Altera Company",
+      "description": "Branding, visual identity, social media, and audiovisual production by Elyan Sodré, Altera Company's flagship service."
+    }
+  },
+  "nav": {
+    "servicos": "Services",
+    "portfolio": "Portfolio",
+    "sobre": "About",
+    "cta": "Request a quote",
+    "openMenu": "Open menu"
+  },
+  "footer": {
+    "servicos": "Services",
+    "company": "Altera Company",
+    "portfolio": "Portfolio",
+    "sobre": "About",
+    "contato": "Contact",
+    "rights": "All rights reserved."
+  },
+  "languageSwitcher": {
+    "label": "Language"
+  },
+  "home": {
+    "eyebrow": "Branding · Content · Technology",
+    "headlineLine1": "WE CHANGE THE WAY",
+    "headlineLine2": "YOUR BRAND",
+    "headlineLine3": "IS SEEN.",
+    "lead": "Altera Company was born from Elyan Sodré's creative direction and today brings together branding, content, and a software engineering team to take your brand from visual identity to digital product — with clarity, strategy, and results.",
+    "ctaQuote": "Request a quote",
+    "ctaPortfolio": "View portfolio",
+    "solutionsTitle": "Our solutions",
+    "solutionsLead": "Projects that align creative direction, market intelligence, and now, software engineering — organized by category to meet your business at every stage.",
+    "flagshipEyebrow": "Flagship",
+    "flagshipTitle": "Creative direction by Elyan Sodré",
+    "flagshipText": "Branding, visual identity, and content that communicate with clarity and build real connection with your audience — the foundation Altera Company built its reputation on, and still our flagship service.",
+    "flagshipCta": "See the full portfolio",
+    "ctaSectionTitle": "Ready to change the way your brand is seen?",
+    "ctaSectionText": "Tell us which stage of your business needs attention — we'll put together the right solution, from visual identity to digital product.",
+    "ctaSectionButton": "Request a quote"
+  },
+  "services": {
+    "pageEyebrow": "Our solutions",
+    "pageTitle": "SERVICES",
+    "pageLead": "Each category solves a different stage of your brand's journey. From visual identity to digital product, choose where to start — or combine fronts to build something complete.",
+    "flagshipLabel": "Flagship",
+    "serviceLabel": "Service",
+    "learnMore": "Learn more",
+    "backToAll": "← All services",
+    "whatWeDeliver": "What we deliver",
+    "requestQuote": "Request a quote",
+    "viewPortfolio": "View portfolio",
+    "otherSolutions": "Other solutions",
+    "items": {
+      "branding-identidade-visual": {
+        "name": "Branding & Visual Identity",
+        "shortName": "Branding",
+        "tagline": "Authentic brands that position themselves with authority.",
+        "description": "We develop everything from the logo to a complete brand manual and the visual system that supports every application of your company — ensuring consistency across every touchpoint with your audience.",
+        "highlights": [
+          "Logo and visual system",
+          "Complete brand manual",
+          "Creative and positioning direction",
+          "Brand applications across print materials"
+        ]
+      },
+      "social-media-conteudo": {
+        "name": "Social Media & Content",
+        "shortName": "Social Media",
+        "tagline": "Strategic management that strengthens your digital presence.",
+        "description": "We handle your profile end-to-end: posts, carousels, and stories with professional design, feed organization, and management focused on building real connection with your audience.",
+        "highlights": [
+          "Posts, carousels, and stories",
+          "Feed organization and curation",
+          "Content calendar and profile management",
+          "Photo production for content"
+        ]
+      },
+      "producao-audiovisual": {
+        "name": "Audiovisual Production",
+        "shortName": "Audiovisual",
+        "tagline": "Videos that engage and convert.",
+        "description": "We handle the whole process — from scriptwriting and visual concepts to final editing — delivering dynamic content for Reels, TikTok, and ads.",
+        "highlights": [
+          "Script and visual concept",
+          "Image and audio capture",
+          "Editing and finishing",
+          "Content for Reels, TikTok, and ads"
+        ]
+      },
+      "performance-digital": {
+        "name": "Digital Performance",
+        "shortName": "Performance",
+        "tagline": "Strategies focused on results and scale.",
+        "description": "We manage paid traffic campaigns designed to scale your brand's reach and grow your sales, with constant metrics tracking and continuous optimization.",
+        "highlights": [
+          "Paid traffic planning and management",
+          "Continuous campaign optimization",
+          "Metrics and results tracking",
+          "Funnel strategy aligned with your business"
+        ]
+      },
+      "tecnologia": {
+        "name": "Technology Solutions",
+        "shortName": "Technology",
+        "tagline": "Custom digital products for every stage of your business.",
+        "description": "Our newest front: we combine Altera Company's brand expertise with a software engineering team to build, from the essentials to the advanced, the digital product your business needs — from your first landing page to full platforms.",
+        "highlights": [
+          "Landing pages and institutional websites",
+          "Custom apps (e.g., clinic management)",
+          "Dashboards and data panels",
+          "Platforms for teams and sales operations"
+        ]
+      }
+    }
+  },
+  "about": {
+    "eyebrow": "About",
+    "title": "ALTERA COMPANY",
+    "lead": "A brand born from design that is growing to deliver technology too — without losing the clarity and connection that have always guided us.",
+    "founderName": "Elyan Sodré",
+    "founderRole": "CEO & Creative Director",
+    "founderBio": "A graduate in Systems Analysis and Development from Estácio de Sá and in Graphic Design from Unopar, Elyan founded Altera Company with a strong focus on branding, creative direction, and social media design. His work is creating visual identities and content that communicate with clarity, position brands, and build real connection with audiences.",
+    "teamTitle": "A growing team",
+    "teamText1": "Altera Company still leads with branding and content as its flagship, but our team has grown: we now have a dedicated software engineering team, expanding what we deliver to include websites, apps, dashboards, and custom platforms.",
+    "teamText2": "The goal remains the same — communicating with clarity and building real connection — now also applied to building complete digital products.",
+    "viewPortfolio": "View portfolio",
+    "requestQuote": "Request a quote"
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "GET IN TOUCH",
+    "lead": "Tell us which solution you need — branding, social media, audiovisual, performance, or technology — and we'll get back to you with next steps.",
+    "instagramLabel": "Instagram",
+    "companyHandle": "@alteracompany",
+    "companyText": "Send us a direct message about your project.",
+    "founderHandle": "@elyansodre",
+    "founderText": "Talk directly with the creative director.",
+    "ctaButton": "Request a quote via Instagram"
+  },
+  "portfolio": {
+    "eyebrow": "Flagship",
+    "title": "PORTFOLIO",
+    "lead": "Over the past few years, Elyan Sodré has worked on dozens of branding, video production and editing, and visual identity projects — the foundation Altera Company built its reputation on.",
+    "casesTitle": "Real cases",
+    "updatingTitle": "Updating",
+    "comingSoon": "Coming soon",
+    "pendingCategories": ["Visual Identity", "Audiovisual Production", "Print Materials"],
+    "wantMoreTitle": "Want to see more?",
+    "wantMoreText": "This page is still receiving final portfolio pieces. In the meantime, check out Elyan Sodré's and Altera Company's full work straight on Instagram.",
+    "fullPortfolioButton": "Full portfolio @elyansodre",
+    "goToInstagramButton": "@alteracompany",
+    "caseStudies": {
+      "dra-geisa-jatoba": {
+        "segment": "Medicine / Aesthetics",
+        "category": "Social Media & Content"
+      },
+      "posto-ipanema": {
+        "segment": "Retail / Fuel",
+        "category": "Social Media & Content"
+      },
+      "clinica-dellmed": {
+        "segment": "Occupational Medicine",
+        "category": "Social Media & Content"
+      }
+    }
+  }
+}
