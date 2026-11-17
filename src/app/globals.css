@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+:root {
+  --background: #fafaf9;
+  --foreground: #0a0a0a;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-display: var(--font-anton);
+  --font-heading: var(--font-jost);
+  --font-sans: var(--font-inter);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+}
+
+.blob-card {
+  border-radius: 2.75rem 1.25rem 2.75rem 1.25rem;
+}
+
+.blob-card-alt {
+  border-radius: 1.25rem 2.75rem 1.25rem 2.75rem;
+}
